@@ -169,3 +169,9 @@ mv -f /bsd.new /bsd
 - http://home.nuug.no/~peter/pf/en/long-firewall.html and his "Book of PF".
 - limit handling in production (connection states): 
   http://www.skeptech.org/blog/2013/01/15/pf-limits-in-openbsd/
+
+## Other projects
+
+- http://securityrouter.org, OpenBSD-based, free and commercial versions
+  available, has a GUI
+  
