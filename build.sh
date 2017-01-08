@@ -353,6 +353,13 @@ if test -d config/$HOSTNAME/unbound/; then
 	cp -R template/usr/sbin/restart_dns $MOUNTPOINT/usr/sbin/.
 fi
 
+# when we run a relayer
+if test -f config/$HOSTNAME/relayd.conf; then
+	cp -R config/$HOSTNAME/relayd.conf $MOUNTPOINT/etc/.
+	cp -R /usr/sbin/relayd $MOUNTPOINT/usr/sbin/.
+	cp -R /usr/sbin/relayctl $MOUNTPOINT/usr/sbin/.
+fi
+
 # autodetect shared libraries needed for all the binaries installed before, then
 # copy them to the flash
 
