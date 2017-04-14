@@ -50,6 +50,9 @@ dd if=[machine].img | ssh [machine] "dd of=/dev/wd1c"
 
 ## News
 
+14.4.2017:
+- updated to OpenBSD 6.1
+
 18.9.2016:
 - updated to OpenBSD 6.0
 
@@ -63,7 +66,6 @@ dd if=[machine].img | ssh [machine] "dd of=/dev/wd1c"
 
 ## Roadmap
 
-- upgrade to OpenBSD 6.1
 - improve update process, preferably an in-situ update via TFTP
 - deal with logging
   - sensord
