@@ -153,7 +153,7 @@ then change the access mode from DMA to PIO x
 See man wd(4) for the values of flags
 
 ```
-config -e -u -o /bsd.new /bsd
+config -e -o /bsd.new /bsd
 
 UKC> change wd
 change (y/n) ? y

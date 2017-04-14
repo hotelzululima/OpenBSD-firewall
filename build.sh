@@ -146,6 +146,7 @@ cp -R /bin/sh $MOUNTPOINT/bin/.
 cp -R /bin/sleep $MOUNTPOINT/bin/.
 cp -R /bin/stty $MOUNTPOINT/bin/.
 cp -R /bin/sync $MOUNTPOINT/bin/.
+cp -R /bin/systrace $MOUNTPOINT/bin/.
 cp -R /bin/tar $MOUNTPOINT/bin/.
 cp -R /bin/test $MOUNTPOINT/bin/.
 
