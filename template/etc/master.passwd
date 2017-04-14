@@ -62,8 +62,6 @@ _pkguntar:*:58:58::0:0:pkg untar user:/nonexistent:/sbin/nologin
 _gitdaemon:*************:778:778:daemon:0:0:GIT Daemon:/nonexistent:/sbin/nologin
 _dbus:*************:572:572:daemon:0:0:dbus user:/nonexistent:/sbin/nologin
 _avahi:*************:629:629:daemon:0:0:Avahi User:/var/empty:/sbin/nologin
-abaumann:$2b$07$CHHNuvn65gkaKSpJnTE90..n3T52iAvyq/VDOBUq8wbvxjtXZHTNu:500:10::0:0:,,,:/home/abaumann:/usr/local/bin/tcsh
-build:*:21:21::0:0:base and xenocara build:/var/empty:/bin/ksh
 _switchd:*:49:49::0:0:Switch Daemon:/var/empty:/sbin/nologin
 _traceroute:*:50:50::0:0:traceroute privdrop user:/var/empty:/sbin/nologin
 _ping:*:51:51::0:0:ping privdrop user:/var/empty:/sbin/nologin
