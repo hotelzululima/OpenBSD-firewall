@@ -3,7 +3,7 @@
 $TTL 60
 
 @		IN	SOA	ns.maschezuoz.ch. admin.maschezuoz.ch. (
-				2016090500	; serial
+				2017050502	; serial
 				3h		; refresh
 				15m		; retry
 				2w		; expire
@@ -21,6 +21,7 @@ $ORIGIN maschezuoz.ch.
 ns			A	192.168.1.1
 
 www			A	192.168.1.15
+www-joomla		A	192.168.1.15
 smtp			A	192.168.1.15
 imap			A	192.168.1.15
 webmail			A	192.168.1.15
